@@ -1,0 +1,33 @@
+=> display: grid; = o display grid deixa todos os elementos um embaixo do outro.<=
+
+=> .justify-content e align-items:  também estão presentes dentro do grid, e nós podemos utilizá-las também para poder remanejar um pouco os elementos.
+
+=>.flex-start:todo mundo fica no começo do grid container.
+=>.flex-end: todos ficam no final do grid container.
+=>.center: todos os elementos ficam centralizados no grid container.
+
+=>.O interessante e que o space-around e o space-evenly: vão ser a mesma coisa, eles vão deixar os espaçamentos laterais, ou seja, a mesma coisa que centralizar todos os elementos.
+
+=>.O space-between: é engraçado, porque a ideia dele é deixar sempre os dois elementos separados e todo o espaço no meio. E como não existe nenhum elemento para poder colocar o espaço dentro, no meio, é como se fosse um flex-start.
+
+=>=>Bom, com grid, nós consegui trabalhar com dois eixos. Usando o grid-template-columns e o grid-template-rows.<=<=
+
+=> .grid-template-columns: É uma propriedade utilizada no grid container. Adiciona COLUNAS(serve para dividir elementos em colunas:) )
+
+=> .grid-template-rows:Também é uma propriedade utilizada no grid container. Adiciona LiNHAS (exemplo: um tabela ele possui colunas e linhas, certo?!).
+
+=> Com o display grid nós ganhamos acesso a outra unidade de medida, que é a fr ou frações.
+
+=>=>.Quando nós queremos que um elemento ocupe mais de uma coluna ou mais de uma célula, digamos assim, nós chamamos isso de mescla. Então nós mesclamos colunas, nós mesclamos linhas. "no display grid é chamada de grid-columns e nós passamos o valor de span que nós queremos".<=<=
+=> grid-columns: span valor;
+
+=>.grid-gap:É uma ferramenta muito maravilhosa, principalmente quando o layout é muito consistente com tamanhos.
+.Bom, e se quisemos colocar espaçamento nas linhas e não nas colunas? ou vise-versa
+=>.row-gap: para espaçamento apenas entre linhas.
+=>.column-gap: para espaçamento apenas entre as colunas.
+
+OBS: DIFERENÇA ENTRE FLEXBOX E GRID E QUANDO DEVEMOS USAR:
+=>Bom, quando se trata de UM EIXO(horizontal e vertical), O flexbox é a melhor solução.<=
+exemplo: uma navegação de websites. 
+
+O Grid quando queremos trabalhar com colunas e linhas é a melhor solução. Exemplo: os cards

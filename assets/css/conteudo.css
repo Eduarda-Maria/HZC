@@ -1,0 +1,118 @@
+.conteudo__picos--imagem{
+  width: 100%;
+}
+
+.conteudo{
+  margin: 1.5rem;
+ 
+}
+
+.conteudo__divisao{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.conteudo__titulo{
+  grid-column: span 2;
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 24px;
+  margin-bottom: 1rem
+}
+
+.conteudo__info{
+  align-items: center;
+  color: #95999c;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+
+.cartao__info--perfil::before{
+  content:"" ;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/profile_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.conteudo__texto{
+  font-family: 'Open Sans' sans-serif;
+  font-style: 400;
+  font-size: 16px;
+  margin: 1rem 0;
+}
+
+.conteudo__imagem--mapa{
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.conteudo__imagem--imagem{
+  width: 100%;
+  margin-bottom: .5rem;
+ 
+}
+.secao{
+  display: none;
+}
+
+@media screen and (min-width: 1440px){
+  .conteudoPicos{
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-template-areas:
+    " conteudo__container  secao" ;
+    grid-column: 2;
+    margin-left: 1.5em;
+  }
+
+  .conteudo__titulo {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+ .divisao--imagem{
+   display: flex;
+   flex-direction: row;
+   width:448px ;
+   height: 256px;
+   margin-bottom: 1rem;
+  
+ }
+
+ .conteudo__imagem--mapa{
+   width: 100%;
+   height: 100%;
+ }
+
+ .conteudo__imagem--imagem{
+   width: 90%;
+   height: 100%;
+
+ }
+
+ .conteudo__imagem--imagem:first-child{
+  margin-right: 2.65rem;
+ }
+
+ .conteudo__container{
+   margin: 1rem;
+   margin-left: 2em;
+
+ }
+ 
+ .secao{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 65%;
+  height: 150%;
+  margin: .5em;
+ }
+}

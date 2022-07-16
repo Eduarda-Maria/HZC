@@ -1,0 +1,36 @@
+display: flex;
+duas propriedades agora para poder
+separar esses elementos: justify-content e o align-items.
+
+O justify-content: pega todo o espaçamento que tem lateral e redistribui entre os elementos do flex container.
+
+flex-start:está dizendo que todos os elementos devem ficar no início do flex container. 
+flex-end: é no final do flex container.
+
+center: vai pegar todo aquele espaço da direita e redistribuir igualmente para deixar todos os elementos no meio do flex container.
+
+space-around: que vai deixar um espaçamento igual em cada um dos elementos.
+
+space-between: vai pegar todo aquele espaço vazio na direita e colocar os elementos centrais do flex container, deixando as pontas coladas no flex container.
+
+=>stretch: faz todos os elementos ocuparem a mesma altura do flex container, a altura máxima do flex container.
+
+flex-wrap:
+nowrap: que é o valor padrão da propriedade, ou seja, ele não vai quebrar linha caso não tenha mais espaço, ele vai continuar crescendo até ultrapassar o limite. 
+wrap: que faz a quebra de linha. Caso não tenha mais espaço lateral, ele pula linha.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+=> .Alterar a orientação do flex container com a propriedade flex-direction;
+
+=> .Naturalmente a orientação do flex container é na horizontal e para trocar o seu eixo, basta usar a propriedade flex-direction.
+
+=> .Propriedades de posicionamento de um flex-item com justify-self e align-self;
+
+=> .As propriedades de posicionamento justify-content e align-items movimentam todos os flex items, se precisamos de um posicionamento individual, usamos as propriedades -self nos flex items específicos.
+
+=>Uso de flex para remanejar pseudo-elementos;
+
+=> .Existem diversas situações que a propriedade de flex pode ser utilizada. É inclusive um incentivo usar flex no lugar de trocar o display para inline/inline-block.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+OBS:LIMITAÇÂO: trabalhar com dois eixos
